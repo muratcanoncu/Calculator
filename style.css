@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 650px;
+  margin: 7% auto;
+  border-radius: 5px;
+}
+.screen {
+  border: 4px solid rgb(41, 41, 56);
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 9rem;
+  padding: 10px;
+  /* background-color: rgb(41, 41, 56); */
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+button {
+  width: 25%;
+  font-size: 2.2rem;
+  font-weight: 500;
+  border: 1px solid gray;
+}
+.actions {
+  background-color: orange;
+  color: white;
+  font-size: 2.7rem;
+}
+.equal {
+  background-color: green;
+  color: white;
+  font-size: 2.5rem;
+}
+.delete {
+  background-color: red;
+  font-size: 2.5rem;
+}
+button:hover {
+  background-color: darkgray;
+}
+.actions:hover {
+  background-color: darkorange;
+}
+.equal:hover {
+  background: darkgreen;
+}
+.delete:hover {
+  background-color: darkred;
+}
