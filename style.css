@@ -86,3 +86,8 @@ button:hover {
 .deleteAll:hover {
   background: rgb(223, 223, 84);
 }
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+}
